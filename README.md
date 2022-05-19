@@ -6,6 +6,7 @@
 - REST (json)
 - GraphQL* (json)
 - RPC (binário)
+- WebSocket
 
 ## o que é gRPC?
 
