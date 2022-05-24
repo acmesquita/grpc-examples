@@ -1,4 +1,6 @@
-# gRPC
+<h1 align="center">gRPC</h1>
+
+O que é? Onde utilizar? Como implementar esse framework no meu dia a dia? Essas são as primeiras perguntas que foram feitas para dar ânimo para construir esse repositório com exemplos e algumas referências sobre o assunto.
 
 ## Comunicação entre aplicações
 
