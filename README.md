@@ -1,8 +1,10 @@
-<h1 align="center">gRPC</h1>
+<h1 align="center">
+  <img width="150px" src="https://user-images.githubusercontent.com/15862643/170051637-c0cb75d8-236d-4c94-9d42-78cebecfd530.png" />
+</h1>
 
 O que é? Onde utilizar? Como implementar esse framework no meu dia a dia? Essas são as primeiras perguntas que foram feitas para dar ânimo para construir esse repositório com exemplos e algumas referências sobre o assunto.
 
-## Comunicação entre aplicações
+## 💻 Comunicação entre aplicações
 
 - SOAP (xml)
 - REST (json)
@@ -10,11 +12,11 @@ O que é? Onde utilizar? Como implementar esse framework no meu dia a dia? Essas
 - RPC (binário)
 - WebSocket
 
-## o que é gRPC?
+## 💭 o que é gRPC?
 
 Framework desenvolvido pelo Google, que implementa o HTTP/2 e por meio de chamadas de funções simples envia e recebe informações entre cliente e servidor.
 
-## Por que e quando utilizar esse meio de comunicação?
+## 🤔 Por que e quando utilizar esse meio de comunicação?
 
 1. gRPC é altamente compactado e eficiente para serializar dados estruturados, utilizando o formato de mensagem protobuf (buffers de protocolo)
 2. As APIs baseadas em RPC são ótimas para ações (ou seja, procedimentos ou comandos) e, como veremos mais adiante, em alguns contextos, pode servir como uma alternativa mais eficiente do que uma API REST.
@@ -22,21 +24,21 @@ Framework desenvolvido pelo Google, que implementa o HTTP/2 e por meio de chamad
 4. Construído em HTTP 2 em vez de HTTP 1.1
 5. Transmissão de mensagens 7 a 10 vezes mais rápida
 
-## Tipo de comunicações utilizando gRPC
+## 🗒️ Tipo de comunicações utilizando gRPC
 
 - Unilateral
 - Server stream
 - Client stream
 - Bilateral
 
-## Mão na massa
+## ✍️ Mão na massa
 
 - Exemplo unilateral: `example-ping-pong`
 - Exemplo server stream: `example-random-number`
 - Exemplo client stream: `example-batch-insert`
 - Exemplo bilateral: `example-chat`
 
-## Referências
+## 📑 Referências
 
 - [gRPC: o que é e como utilizá-lo na sua próxima aplicação](https://www.zup.com.br/blog/grpc-o-que-e-beagle) - 22 jul 2021
 - [TDot Code](https://www.youtube.com/channel/UCUwA7VxRo-uw2eQJ52EkKlQ) - Canal no YouTube com vários exemplos
